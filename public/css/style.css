@@ -1,0 +1,16 @@
+.nav-link{
+    color: #ddcfe5;
+}
+
+.table{
+    width: 100%;
+}
+
+.nav-link:hover{
+    color: rgb(255, 193, 7);
+}
+
+.actions{
+    display: flex;
+    justify-content: space-evenly;
+}
