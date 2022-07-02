@@ -2,7 +2,7 @@
 @section('title', 'Tashkilotlar royxati')
 @section('content')
 <div class="container">
-    <h2 class="text-center mb-3">Tashkilotlar royxati</h2>
+    <h2 class="text-center mb-3">Tashkilotlar royxati Tashkilotlar royxati</h2>
     <table border="" class="table table-striped table-bordered">
         <thead>
             <tr>

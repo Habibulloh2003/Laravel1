@@ -20,8 +20,7 @@ class CompaniessController extends Controller
         $companies = Company::orderByDesc('created_at')->paginate(10); /* bu companies jadvaligidagi hamma malumotlani qaytaradi */
         return view('companies.index', [
             'companies'  => $companies,
-        ]
-        );
+        ]);
     }
 
     /**
@@ -84,7 +83,6 @@ class CompaniessController extends Controller
         return view('companies.edit', [
             "company" => $data,
         ]);
-        //dd($data);
     }
 
     /**
